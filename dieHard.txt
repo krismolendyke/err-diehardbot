@@ -186,7 +186,6 @@ TV, VHS, telephone, full bar.
 If your friend is hot to trot...I
 know a couple of mama bears.
        (turning to McClane)
-       %
 ...Or is he married?
 %
                 MCCLANE
@@ -238,7 +237,6 @@ Closer to Japan.  You're fast.
 So, why didn't you come?
 %
                 MCCLANE
-                %
 'Cause I'm a New York cop who used
 to be a New York kid, and I got six
 months backlog of New York scumbags
@@ -458,7 +456,6 @@ think that Ellis has his eye on you.
                 HOLLY
 That's okay...
        (pause)
-       %
 ... I have an eye on his private
 bathroom.
 %
@@ -575,7 +572,6 @@ Schmuck!
 %
                 MAN #1 (THEO)
       (animatedly)
-      %
 ...So, Kareem rebounds -- listen,
 this is a great play -- feeds Worthy
 on the break, over to A.C., to Magic,
@@ -633,7 +629,6 @@ to be taught a lesson on real power.
 You...will be witnesses.
 If our demands are not met, however --
        (sad smile)
-       %
 -- You may become participants instead.
        (beat, checking notes)
 Now, where is...'Takagi'?  Where is
@@ -788,7 +783,6 @@ charming personality.
 %
                 THEO
        (under his breath)
-       %
 'Though you could have...
 %
                 MCCLANE
@@ -838,7 +832,6 @@ badge number on your uniform and
 cancel the alarm...then disable
 the system.
       (looks across at
-      %
       Tony, presses talk
       button again)
 Eddie?  What floor did the alarm
@@ -1213,7 +1206,6 @@ it snow -- '
 %
                POWELL
       (terrified)
-      %
 - Jesus H. Christ!
       (grabbing for
       his radio)
@@ -1280,7 +1272,6 @@ that sound.
 We knew that police action was
 inevitable...
       (an odd smile)
-      %
 ..In fact, it's necessary.  So let
 them start their feeble efforts;
 until them, stay calm.  We have
@@ -1709,7 +1700,6 @@ busy.  Let's talk later, okay?
                MCCLANE
 Al, what's wrong?  Did something --
       (realizing)
-      %
 - Oh, God.  You're coming in!  That's
 it, isn't it?  Christ, Powell, I told
 you what you're dealing with here --
@@ -1841,7 +1831,6 @@ They're using artillery on us -- !
                HANS
 You idiot, it's not the police...
       (pause)
-      %
 ..It's him.
 %
                MCCLANE
@@ -1878,7 +1867,6 @@ Yessir.
 %
                ROBINSON
       (reaching for Powell's
-      %
       CB)
 Give me that.
       (angrily at McClane)
@@ -1973,7 +1961,6 @@ I'm tired of sitting here waiting
 to see who gets us killed first...
 them...or your husband.
       (to the approaching
-      %
       Fritz)
 Hi there.
 %
@@ -2194,7 +2181,6 @@ That asshole's not my friend!
 I barely know him!  I hate his
 fucking guts --
       (desperately sincere)
-      %
 - Ellis, for Christ's sake, tell
 him you don't mean shit to me --
 %
@@ -2207,7 +2193,6 @@ Hear that?  Talk to me, where are my
 detonators.  Where are they or shall
 I shoot another one?  Sooner or later...
       (taking a shot)
-      %
 ..I might get to someone you do care
 about.
 %
@@ -2281,7 +2266,6 @@ rattling its saber to its own ends...
 now it can rattle it for me.
 %
                HANS' VOICE
-               %
 ..The following people are to be
 released from their captors:  In
 Northern Ireland, the seven members
@@ -2633,7 +2617,6 @@ You got something?
 Just McClane's name, badge number,
 police record, vital statistics...
       (the ringer)
-      %
 ..And his family's address right
 here in L.A.
 %
@@ -2773,13 +2756,11 @@ Encourage them to be bolder.
 The only thing left for them is the
 City Grid...
       (worried, typing)
-      %
 ..They may not do it.
 %
                LITTLE JOHNSON
 Shit!
       (turning, to the
-      %
       Engineer)
 Cut it again.  Go wider.
 %
@@ -2787,7 +2768,6 @@ Cut it again.  Go wider.
 I can't go wider here...
       (to Robinson, looking
       for help)
-      %
 ..I'd have to call downtown have
 them take down one of the city
 grids...you're talking ten square
@@ -2838,7 +2818,6 @@ not paying their electric bill?
 We let them sweat awhile.  Then, when
 they're expecting helicopters...
       (pause)
-      %
 ..We give them helicopters...
 %
                BIG JOHNSON
@@ -2918,7 +2897,6 @@ guy upstairs.
       a thought)
 Upstairs...
       (thinking, to himself)
-      %
 ..Hans, you bastard...what were you
 doing?
 %
@@ -2979,7 +2957,6 @@ is personal.  You...are done.
 They're coming.
 %
                THORNBURG'S VOICE FROM TV
-               %
 - I know you're proud of your daddy...
 %
                THORNBURG
