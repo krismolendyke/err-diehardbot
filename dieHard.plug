@@ -1,0 +1,6 @@
+[Core]
+Name = DieHard
+Module = dieHardBot
+    
+[Documentation]
+Description = Die Hard
