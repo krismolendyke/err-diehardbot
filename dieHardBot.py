@@ -12,84 +12,41 @@ from errbot.jabberbot import botcmd
 from dieHard import DieHard
 
 
+def generate(character):
+    f = lambda self, mess, args: "(%s) %s" % (character,
+            self.diehard.get_random(character))
+    f.__name__ = character
+    f.__doc__ = "Get a random quote from %s." % character.title()
+    return f
+
+
+class DieHardBotBuilder(type):
+    def __new__(mcs, name, bases, classDict):
+        newClassDict = dict(classDict.items() +
+                            [(character, botcmd(generate(character)))
+                            for character in DieHard.CHARACTERS])
+        return super(DieHardBotBuilder, mcs).__new__(mcs, name, bases,
+                                                     newClassDict)
+
+
 class DieHardBot(BotPlugin):
+    __metaclass__ = DieHardBotBuilder
+
+
     def __init__(self):
         super(BotPlugin, self).__init__()
         self.diehard = DieHard()
 
 
-    @botcmd
-    def mcclane(self, mess, args):
-        """Get a random McClane line."""
-        return "(mcclane) " + self.diehard.get_random("mcclane")
-
-
-    @botcmd
-    def hans(self, mess, args):
-        """Get a random Hans line."""
-        return "(hans) " + self.diehard.get_random("hans")
-
-
-    @botcmd
-    def takagi(self, mess, args):
-        """Get a random Takagi line."""
-        return "(takagi) " + self.diehard.get_random("takagi")
-
-
-    @botcmd
-    def ellis(self, mess, args):
-        """Get a random Ellis line."""
-        return "(ellis) " + self.diehard.get_random("ellis")
-
-
-    @botcmd
-    def holly(self, mess, args):
-        """Get a random Holly line."""
-        return "(holly) " + self.diehard.get_random("holly")
-
-
-    @botcmd
-    def powell(self, mess, args):
-        """Get a random Powell line."""
-        return "(powell) " + self.diehard.get_random("powell")
-
-
-    @botcmd
-    def argyle(self, mess, args):
-        """Get a random Argyle line."""
-        return "(argyle) " + self.diehard.get_random("argyle")
-
-
-    @botcmd
-    def thornburg(self, mess, args):
-        """Get a random Thornburg line."""
-        return "(thornburg) " + self.diehard.get_random("thornburg")
-
-
-    @botcmd
-    def robinson(self, mess, args):
-        """Get a random Robinson line."""
-        return "(robinson) " + self.diehard.get_random("robinson")
-
-
-    @botcmd
-    def bigjohnson(self, mess, args):
-        """Get a random Big Johnson line."""
-        return "(bigjohnson) " + self.diehard.get_random("bigjohnson")
-
-
-    @botcmd
-    def littlejohnson(self, mess, args):
-        """Get a random Little Johnson line."""
-        return "(littlejohnson) " + self.diehard.get_random("littlejohnson")
-
-
     def callback_message(self, conn, mess):
-        """Listen for Die Hard mentions and interject random quotes from those
+        """Listen for Die Hard mentions and interject random lines from those
         characters who were mentioned.
         """
         message = ""
-        if mess.getBody().find("(hans)") != -1:
-            message = "(hans) " + self.diehard.get_random("hans")
+        for character in DieHard.CHARACTERS:
+            if mess.getBody().find("(%s)" % character) != -1:
+                message = "(%s) %s" % (character,
+                                       self.diehard.get_random(character))
+                break
         if message:
             self.send(mess.getFrom(), message, message_type=mess.getType())
