@@ -2569,7 +2569,7 @@ Put down your gun and give me my
 detonators.
 %
                MCCLANE
-Hans.  Your Hans.
+Well, well, well... Hans.
 %
                HANS
       (nods, indicating McClane's
@@ -2590,7 +2590,7 @@ I'm going to count to three...
 Yeah.  Like you did with Takagi.
 %
                MCCLANE
-You think I'm a shmuch, Hans.
+Oops. No bullets.... What do you think I'm fucking stupid, Hans?
 %
                HANS
 You were saying.
