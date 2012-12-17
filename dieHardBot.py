@@ -5,9 +5,10 @@
 mentions and respond with a random line spoken by that character in the film.
 """
 
-
 from errbot.botplugin import BotPlugin
 from errbot import botcmd
+from errbot.utils import get_sender_username
+import config
 
 from dieHard import DieHard
 
@@ -43,6 +44,10 @@ class DieHardBot(BotPlugin):
         """Listen for Die Hard mentions and interject random lines from those
         characters who were mentioned.
         """
+        if (mess.getFrom() == config.BOT_IDENTITY) or (get_sender_username(mess) == config.CHATROOM_FN):
+            logging.debug("Ignore a message from myself")
+            return False
+
         message = ""
         for character in DieHard.CHARACTERS:
             if mess.getBody().find("(%s)" % character) != -1:
