@@ -31,6 +31,7 @@ class DieHardBotBuilder(type):
 
 class DieHardBot(BotPlugin):
     __metaclass__ = DieHardBotBuilder
+    min_err_version = "1.6.0"
 
 
     def __init__(self):
