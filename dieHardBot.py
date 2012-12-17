@@ -7,7 +7,7 @@ mentions and respond with a random line spoken by that character in the film.
 
 
 from errbot.botplugin import BotPlugin
-from errbot.jabberbot import botcmd
+from errbot import botcmd
 
 from dieHard import DieHard
 
