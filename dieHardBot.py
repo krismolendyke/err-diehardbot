@@ -5,8 +5,7 @@
 mentions and respond with a random line spoken by that character in the film.
 """
 
-from errbot import botcmd
-from errbot.botplugin import BotPlugin
+from errbot import BotPlugin, botcmd
 from errbot.utils import get_sender_username
 import config
 import logging
