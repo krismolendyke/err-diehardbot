@@ -56,8 +56,6 @@ class DieHardBot(BotPlugin):
         message = ""
         for character in DieHard.CHARACTERS:
             if mess.getBody().find("(%s)" % character) != -1:
-                message = "(%s) %s" % (character,
-                                       self.diehard.get_random(character))
-                break
+                message += "(%s) %s  " % (character, self.diehard.get_random(character))
         if message:
             self.send(mess.getFrom(), message, message_type=mess.getType())
